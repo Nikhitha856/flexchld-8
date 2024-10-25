@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    height: 500px;
+    width:500px;
+    border: 2px solid black;
+    align-content:center;
+    flex-wrap:wrap;
+}
+.flex-child1{
+    background-color: blueviolet;
+    height: 100px;
+ }
+.flex-child2{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width:200px ;
+}
+.flex-child3{
+    background-color: palevioletred;
+    height: 80px;
+    width: 100px;
+}
+.flex-child4{
+    background-color:yellow;
+    height: 150px;
+    width: 200px;
+}
+.flex-child5{
+    background-color:green;
+    height: 80px;
+    width: 200px;
+}
